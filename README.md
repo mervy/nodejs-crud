@@ -4,7 +4,8 @@
 
 ## Comandos
 * Iniciais *
-´´´
+
+```bash
 //Starting versioning with git
 $ git init 
 $ git branch -m main
@@ -20,10 +21,14 @@ $ cd api
 $ npm init -y 
 $ sudo pacman -S yarn
 $ yarn add express nodemon mysql cors
-´´´
 
-* Extensão para JSON *
+``` 
+
+* ** Extensão para JSON **
 - https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?pli=1 
 
-//Show results
+* **Show results**
+```bash
+$ yarn start
+```
 - http://localhost:8800/
